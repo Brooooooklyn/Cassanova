@@ -1,0 +1,11 @@
+{
+  "globalDependencies": {
+    "form-data": "registry:dt/form-data#0.0.0+20160724024111",
+    "ioredis": "registry:dt/ioredis#0.0.0+20160724055938",
+    "koa": "registry:dt/koa#2.0.0+20160317120654",
+    "koa-router": "registry:dt/koa-router#7.0.0+20160314083221",
+    "lodash": "registry:dt/lodash#3.10.0+20160720001309",
+    "node": "registry:dt/node#6.0.0+20160613154055",
+    "whatwg-fetch": "registry:dt/whatwg-fetch#0.0.0+20160524142046"
+  }
+}

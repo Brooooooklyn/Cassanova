@@ -1,0 +1,34 @@
+{
+  "name": "teambition-oauth",
+  "version": "0.0.1",
+  "description": "teambition oauth service",
+  "main": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && tsc src/index.ts typings/index.d.ts -m commonjs --outDir lib --sourcemap --sourceRoot src --target ES2015 -d --diagnostics --pretty --noImplicitAny --noImplicitReturns --experimentalDecorators --suppressImplicitAnyIndexErrors --moduleResolution node",
+    "watch": "tsc src/index.ts typings/index.d.ts -m commonjs --outDir lib --sourcemap --sourceRoot src --target ES2015 -d --diagnostics --pretty --noImplicitAny --noImplicitReturns --experimentalDecorators --suppressImplicitAnyIndexErrors --moduleResolution node -w"
+  },
+  "keywords": [
+    "teambition",
+    "oauth"
+  ],
+  "author": "lynweklm@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.21.0",
+    "ioredis": "^2.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.1.0",
+    "koa-router": "^7.0.1",
+    "lodash": "^4.14.0",
+    "request": "^2.74.0",
+    "rxjs": "^5.0.0-beta.10",
+    "teambition-sdk": "^0.2.20"
+  },
+  "devDependencies": {
+    "sneaky": "^1.1.8",
+    "ts-node": "^0.9.1",
+    "typings": "^1.3.0"
+  }
+}
