@@ -1,4 +1,6 @@
-# teambition apis auth tools
+# Cassanova
+
+A bridge that conjunction Teambition & Gitlab & Jenkins
 
 ## usage
 ```bash
